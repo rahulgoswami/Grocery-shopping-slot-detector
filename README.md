@@ -19,6 +19,7 @@ The default mode is WholeFoods. If you want to  use Amazon Fresh, invoke the scr
 Install Python 3.x
  
 pip install -U selenium
+
 pip install twilio
  
 Download chrome webdriver as per your Chrome version from here: https://chromedriver.chromium.org/downloads.
