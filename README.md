@@ -1,6 +1,6 @@
 # Grocery-shopping-slot-detector
 
-Currently this script works for Amazon Fresh and Amazon WholeFoods and has been tested on Windows. I anticipate the code to run on other platforms as well. You'll need to change some of the config settings specific to the platform (eg: setting environment variables)
+Currently this script works for Amazon Fresh and Amazon Whole Foods and has been tested on Windows. I anticipate the code to run on other platforms as well. You'll need to change some of the config settings specific to the platform (eg: setting environment variables)
 
 ## Behavior
 The script logs you in using the supplied credentials and once it reaches the page showing availability of slots, it keeps refreshing the page at random few seconds. If it detects a slot, it sends a text message AND also makes a call to a phone number of your choice to notify.
