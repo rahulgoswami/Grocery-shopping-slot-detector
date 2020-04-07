@@ -2,14 +2,14 @@
 
 Currently this script works for Amazon Fresh and Amazon WholeFoods and has been tested on Windows. I anticipate the code to run on other platforms as well. You'll need to change some of the config settings specific to the platform (eg: setting environment variables)
 
-##Instructions:
+## Instructions:
  
-###How to run?
+### How to run?
 Rename the attached file to .py
  
 python amazon_slot_detector.py
  
-###Prerequisites:
+### Prerequisites:
 
 Install Python 3.x
  
