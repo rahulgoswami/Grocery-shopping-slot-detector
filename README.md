@@ -2,13 +2,16 @@
 
 Currently this script works for Amazon Fresh and Amazon WholeFoods and has been tested on Windows. I anticipate the code to run on other platforms as well. You'll need to change some of the config settings specific to the platform (eg: setting environment variables)
 
-## Instructions:
+## Behavior
+The script logs you in using the supplied credentials and once it reaches the page showing availability of slots, it keeps refreshing the page at random few seconds. If it detects a slot, it sends a text message AND also makes a call to a phone number of your choice to notify.
+
+## Instructions
  
 ### How to run?
-Rename the attached file to .py
- 
-python amazon_slot_detector.py
- 
+The default mode is WholeFoods. If you want to  use Amazon Fresh, invoke the script with parameter “af”. 
+#### WholeFoods: python amazon_slot_detector.py
+#### Amazon Fresh: python amazon_slot_detector.py af
+
 ### Prerequisites:
 
 Install Python 3.x
