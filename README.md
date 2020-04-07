@@ -9,8 +9,8 @@ The script logs you in using the supplied credentials and once it reaches the pa
  
 ### How to run?
 The default mode is WholeFoods. If you want to  use Amazon Fresh, invoke the script with parameter “af”. 
-#### WholeFoods: python amazon_slot_detector.py
-#### Amazon Fresh: python amazon_slot_detector.py af
+**WholeFoods**: python amazon_slot_detector.py
+**Amazon Fresh**: python amazon_slot_detector.py af
 
 ### Prerequisites:
 
