@@ -14,6 +14,10 @@ The default mode is WholeFoods. If you want to  use Amazon Fresh, invoke the scr
 
 **Amazon Fresh**: python amazon_slot_detector.py af
 
+
+**IMPORTANT caveat**: At one step during loging, it will ask for OTP…after you enter the OTP (within 60 secs) **DO NOT click on 'Continue' button** . The code will do it for you. (or else the code breaks. Heck I didn’t want to invest on optimization when I didn’t have food at home). 
+
+
 ### Prerequisites:
 
 Install Python 3.x
@@ -31,8 +35,6 @@ Set TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN as system environment variables as 
  
 Read the top part of the code to set required parameters
 
-
-**IMPORTANT caveat**: At one step it will ask for OTP…after you enter the OTP (within 60 secs) DO NOT click on continue (or else the code breaks. Heck I didn’t want to invest on optimization when I didn’t have food at home). The code will do it for you.
  
 **Note**: It would be a good idea if you could add items to your cart beforehand so that upon notification you can quickly checkout items.
  
