@@ -16,10 +16,10 @@ from selenium.webdriver.common.by import By
 AMAZON_EMAIL_ID='your email id'
 AMAZON_PASSWORD=' your password '
 FROM_NUMBER='+1425xxxxxxx'  ##Number generated through your Twilio account 
-TO_NUMBER='+1562xxxxxxx'
+TO_NUMBER='+1562xxxxxxx'   ##Number you want to send notifications to
 # Download chrome webdriver as per your Chrome version from here: https://chromedriver.chromium.org/downloads
 # Also, set TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN as system environment variables as per your Twilio credentials
-DISABLE_COOKIE_LOGIN=True   #Let this be as is. Ping me if you want to know how to make it work with cookie login so you don't have to enter credentials 
+DISABLE_COOKIE_LOGIN=True   #Let this be as is. Message me you want to enable cookie login for this script so you don'have to enter credentials everytime 
 ###############################
 
 DEFAULT_ERROR="Program ended abruptly. Please check."

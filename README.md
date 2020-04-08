@@ -31,7 +31,7 @@ Provide the path of the folder containing the driver in the System PATH variable
  
 Create a Twilio account. It would be great if you could use my referral link: www.twilio.com/referral/ZAVEPt
  
-Set TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN as system environment variables as per your Twilio credentials
+Set **TWILIO_ACCOUNT_SID** and **TWILIO_AUTH_TOKEN** as system environment variables as per your Twilio credentials (Seen on Twilio's dashboard)
  
 Read the top part of the code to set required parameters
 
