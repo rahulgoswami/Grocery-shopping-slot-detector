@@ -1,4 +1,4 @@
-# Grocery-shopping-slot-detector
+# Whole-foods-and-Amazon-Fresh-delivery-slot-detector
 
 Currently this script works for Amazon Fresh and Amazon Whole Foods and has been tested on Windows. I anticipate the code to run on other platforms as well. You'll need to change some of the config settings specific to the platform (eg: setting environment variables)
 
