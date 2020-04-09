@@ -3,7 +3,7 @@
 Times are tough (thank you COVID-19) and delivery slots for groceries are fast running out. So I created this quick hack in a bid to do my bit. Currently this script works for Amazon Fresh and Amazon Whole Foods and has been tested on Windows. I anticipate the code to run on other platforms as well. You'll need to change some of the config settings specific to the platform (eg: setting environment variables)
 
 ## Behavior
-The script logs you in using the supplied credentials and once it reaches the page showing availability of slots, it keeps refreshing the page at random few seconds. If it detects a slot, it sends a text message AND also makes a call to a phone number of your choice to notify.
+The script logs you in using the supplied credentials and automatically progresses through the pages. No human intervention is required EXCEPT when you are asked to enter OTP during login. Once it reaches the page showing availability of slots, it keeps refreshing the page at random few seconds. If it detects a slot, it sends a text message AND also makes a call to a phone number of your choice to notify.
 
 ## Instructions
  
