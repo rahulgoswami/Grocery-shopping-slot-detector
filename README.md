@@ -17,7 +17,7 @@ The default mode is WholeFoods. If you want to  use Amazon Fresh, invoke the scr
 **IMPORTANT caveat**: At one step during loging, it will ask for OTP…after you enter the OTP (within 60 secs) **DO NOT click on 'Continue' button** . The code will do it for you. (or else the code breaks. Heck I didn’t want to invest on optimization when I didn’t have food at home). 
 
 
-## Cookie login
+### Cookie login
 In some cases where 2 factor authentication is not enabled, you may not be asked for OTP. As an alternative, the script supports cookie login so you won't have to go through the login steps...
 
 1. In the beginning of the script where the user parameters are defined...set DISABLE_COOKIE_LOGIN=False (It is currently True).
