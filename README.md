@@ -23,7 +23,7 @@ In some cases where 2 factor authentication is not enabled, you may not be asked
 1. In the beginning of the script where the user parameters are defined...set DISABLE_COOKIE_LOGIN=False (It is currently True).
 2. At line 80 chrome_options.add_argument("user-data-dir=C:\\Users\\temp\\AppData\\Local\\Google\\Chrome\\User Data\\Default") ...change that folder location to any empty folder on your machine.
 3. Run the script...and when the browser opens, manually log in. Once logged in successfully, close the browser.
-4. Run the script again...this time it should automatically login you in and proceed without any human intervention.
+4. Run the script again...this time it should automatically log you in and proceed without any human intervention.
 
 
 ### Prerequisites:
